@@ -1,0 +1,7 @@
+[user]
+	name = Reinan Gabriel
+	email = 28494067+reinanhs@users.noreply.github.com
+[pull]
+	rebase = true
+[init]
+	defaultBranch = main
