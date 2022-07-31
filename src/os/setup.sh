@@ -8,7 +8,7 @@ AUTHOR_REPOSITORY="Reinan Gabriel"
 MINIMUM_MACOS_VERSION="10.10"
 MINIMUM_UBUNTU_VERSION="20.04"
 
-DIR_INSTALL="/home/reinan/.dotfiles"
+DIR_INSTALL="/home/$USER/.dotfiles"
 
 # Color
 # Reset
@@ -54,7 +54,7 @@ init() {
 
 install() {
     cd ~
-    git clone https://github.com/ReinanHS/dotfiles.git $DIR_INSTALL
+    git clone https://github.com/reinanhs/dotfiles.git $DIR_INSTALL
     bash "$DIR_INSTALL/src/os/linux/install-packages.sh"
     bash "$DIR_INSTALL/install"
 }
