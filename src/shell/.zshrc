@@ -7,6 +7,17 @@ ZSH_THEME="awesomepanda"
 # Plugins
 plugins=(
     git
+    docker-compose
+    common-aliases
+    autoenv
+    command-not-found
+    emoji
+    gcloud
+    golang
+    history
+    laravel
+    composer
+    terraform
 )
 
 source $ZSH/oh-my-zsh.sh
