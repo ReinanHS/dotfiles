@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# user defined variables
+
+export PERSONAL_MAIL="reinangabriel1520@gmail.com"

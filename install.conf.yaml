@@ -1,0 +1,16 @@
+- defaults:
+      link:
+          relink: true
+
+- link:
+      ~/.zshrc: src/shell/.zshrc
+      ~/.zprofile: src/shell/.zprofile
+      ~/.gitconfig: src/git/.gitconfig
+      ~/.gitignore: src/git/.gitignore
+
+- create:
+      - ~/downloads
+      - ~/gitlab
+
+- shell:
+      - [git submodule update --init --recursive, Installing submodules]

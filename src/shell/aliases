@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Update applications and CLTs.
+
+alias u-all="sudo apt-get update && sudo apt-get upgrade"
