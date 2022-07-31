@@ -9,8 +9,7 @@
       ~/.gitignore: src/git/.gitignore
 
 - create:
-      - ~/downloads
-      - ~/gitlab
+      - ~/vhost
 
 - shell:
       - [git submodule update --init --recursive, Installing submodules]
