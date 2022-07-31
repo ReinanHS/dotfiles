@@ -6,9 +6,13 @@ Config files for my Ubuntu Linux build
 
 ### Setup dos dotfiles
 
+
+installation using curl:
 ```shell
-git clone git@github.com:reinanhs/dotfiles.git ~/.dotfiles
-cd ~/.dotfiles
-ln -s ~/.dotfiles/.zshrc ~/.zshrc
-ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ReinanHS/dotfiles/main/src/os/setup.sh)"
+```
+
+installation using wget: 
+```shell
+sh -c "$(wget https://raw.githubusercontent.com/ReinanHS/dotfiles/main/src/os/setup.sh -O -)"
 ```
