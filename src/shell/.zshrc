@@ -9,7 +9,6 @@ plugins=(
     git
     docker-compose
     common-aliases
-    autoenv
     command-not-found
     emoji
     gcloud
