@@ -3,3 +3,5 @@
 # user defined variables
 
 export PERSONAL_MAIL="reinangabriel1520@gmail.com"
+export UID=$(id -u) 
+export GID=$(id -g)
